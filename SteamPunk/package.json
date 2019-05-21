@@ -1,0 +1,3 @@
+{
+    "name": "SteamPunk", "version": "1.0.0", "keywords": ["util", "functional", "server", "client", "browser"], "author": "Andrin Maric Weiler <andrin.weiler at stud.kftg.ch>", "contributors": [], "dependencies": {}
+}
