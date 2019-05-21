@@ -38,11 +38,14 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
     
 </head>
-<body background="img/hintergrund_5.png">
-    <div class="container">
-        <form name="nixie" action="">
-            <button type="submit" class="" id="abstand">ENTER PIN</button>
-        </form>
+
+<body>
+    <div class="mycontainer">
+        <input type="number" name="input_01" id ="ipOne" class="mytxtfield" value="1" maxlength="1" required>
+        <input type="number" name="input_02" id ="ipTwo" class="mytxtfield" value="2" maxlength="1" required>
+        <input type="number" name="input_03" id ="ipThree" class="mytxtfield" value="3" maxlength="1" required>
+        <input type="number" name="input_04" id ="ipFour" class="mytxtfield" value="4" maxlength="1" required>
+        <button type="submit" class="mybtn" onClick="checkPin">ENTER PIN</button>
     </div>
 </body>
 </html>
