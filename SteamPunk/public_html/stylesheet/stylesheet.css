@@ -4,33 +4,76 @@
     Author      : Andrin Maric Weiler <andrin.weiler at stud.kftg.ch>
 */
 
+@font-face {
+    font-family: "Steampunk";
+    src: url("../fonts/steampunk.otf");
+}
+
 * {
     margin: 0;
+    background-color: #000;
 }
 
 body {
-    background-image: url("img/hintergrund_5");
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-color: #77dd77;
+    height: 950 px;
 }
 
-.container {
-
+.mybtn{
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 200 px;
+    background-color: Transparent;
+    color: #DAA520;
+    font-family: "Steampunk";
+    font-size: 64px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
-header {
-
+.mytxtfield{
+    font-family: Arial, sans-serif;
+    font-size: 64px;
+    background-color:rgba(0, 0, 0, 0);
+    color: orange;
+    border: none;
+    outline:none;
+    height:64px;
+    width: 64px;
 }
 
-nav {
-
+#ipOne{
+    position: absolute;
+    top: 74%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
-main {
-
+#ipTwo{
+    position: absolute;
+    top: 74%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
-footer{
+#ipThree{
+    position: absolute;
+    top: 74%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
 
+#ipFour{
+    position: absolute;
+    top: 74%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
