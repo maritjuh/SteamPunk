@@ -9,7 +9,10 @@
 }
 
 body {
-
+    background-image: url("img/hintergrund_5");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-color: #77dd77;
 }
 
 .container {
